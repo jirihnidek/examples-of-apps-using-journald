@@ -13,17 +13,18 @@ More documentation can be found here:
 https://www.freedesktop.org/software/systemd/python-systemd/journal.html
 """
 
+
 def main():
     """
     main function
     :return: None
     """
     log.setLevel(logging.DEBUG)
+
     log.debug("Hello, Python from debug level!")
     log.info("Hello, Python from info level!")
     log.warning("Hello, Python from warning level!")
     log.error("Hello, Python from error level!")
-    print("Hello from console, Python!")
 
 
 if __name__ == "__main__":
